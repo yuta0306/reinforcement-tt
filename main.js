@@ -294,7 +294,7 @@ START.addEventListener('click', e => {
     if (!mode) {
         let player = new Agent('player');
         let enemy = new Agent('enemy');
-        let steps = 1000000, count = 1;
+        let steps = 100000, count = 1;
         mode = true;
 
         trainer = new Train(player, enemy);
